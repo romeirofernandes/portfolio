@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romeiro Fernandes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="fixed-header">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero">
+          <div class="profile-section">
+            <div class="profile-content">
+              <h1>Romeiro Fernandes</h1>
+              <div class="subtitle">
+                Building <span class="highlight">Websites</span>
+              </div>
+              <p class="bio">
+                An aspiring web developer passionate about web development,
+                full-stack projects, and sharing my learning journey. Find me on
+                <a
+                  href="https://twitter.com/romeirofernandes"
+                  class="twitter-link"
+                  >twitter</a
+                >
+                for FPL updates and memes.
+              </p>
+            </div>
+            <div class="profile-image-container">
+              <img
+                src="myphoto.jpg"
+                alt="Romeiro Fernandes"
+                class="profile-image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <h2>About Me</h2>
+          <div class="about-content">
+            <p>
+              Hello! I'm Romeiro, a 2nd-year Computer Engineering student with a
+              passion for coding and problem-solving 💻. I enjoy building web
+              apps, exploring new technologies, and constantly learning to
+              improve my skills.
+            </p>
+            <p>
+              In my free time, I like working on personal projects, from React
+              games to full-stack applications 🚀. I’m always up for new
+              challenges and love creating software that makes an impact!
+            </p>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <a
+              href="https://stat-off.vercel.app/"
+              target="_blank"
+              class="project-link"
+              style="text-decoration: none"
+            >
+              <div class="project-card" style="color: white">
+                <div class="project-header">
+                  <h3>Statoff</h3>
+                  <div class="project-icon">⚽</div>
+                </div>
+                <p>
+                  A fun game to test your knowledge of English Premier League
+                  players!
+                </p>
+                <div class="tech-stack">
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                  <span>Firebase</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="https://track-it-eight-omega.vercel.app/"
+              target="_blank"
+              class="project-link"
+              style="text-decoration: none"
+            >
+              <div class="project-card" style="color: white">
+                <div class="project-header">
+                  <h3>TrackIt</h3>
+                  <div class="project-icon">💰</div>
+                </div>
+                <p>
+                  A simple budgeting tool designed for students to manage their
+                  finances.
+                </p>
+                <div class="tech-stack">
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                  <span>Firebase</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/romeirofernandes/yourlist"
+              target="_blank"
+              class="project-link"
+              style="text-decoration: none"
+            >
+              <div class="project-card" style="color: white">
+                <div class="project-header">
+                  <h3>YourList</h3>
+                  <div class="project-icon">🎬</div>
+                </div>
+                <p>
+                  A simple web app for movie watchlists using the Flask
+                  framework and OMDB.
+                </p>
+                <div class="tech-stack">
+                  <span>Flask</span>
+                  <span>SQLite</span>
+                  <span>Tailwind CSS</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="https://wrestle-r.github.io/walking-project/"
+              target="_blank"
+              class="project-link"
+              style="text-decoration: none"
+            >
+              <div class="project-card" style="color: white">
+                <div class="project-header">
+                  <h3>The Walking Project</h3>
+                  <div class="project-icon">🌱</div>
+                </div>
+                <p>
+                  A web app to document our Mumbai Sustainability Center work.
+                </p>
+                <div class="tech-stack">
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                  <span>Firebase</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2 style="text-align: center">Get in Touch</h2>
+          <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <div class="social-links">
+          <a href="https://github.com/romeirofernandes" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://twitter.com/romeirofernandes" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://linkedin.com/in/romeirofernandes" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
